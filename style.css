@@ -1,0 +1,76 @@
+.conteneur {
+  display: flex;
+}
+
+.partie1 {
+  background-color: rgb(176, 180, 179);
+  height: 900px;
+  width: 200px;
+}
+
+.partie2 {
+  background-color: rgb(251, 252, 251);
+  width: 600px;
+  margin-left: 100px;
+}
+
+.entete {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background: black;
+  border-bottom-left-radius: 180px;
+  border-bottom-right-radius: 180px;
+  /* align-self: start; */
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.entete h2 {
+  font-size: 14px;
+}
+.entete h1 {
+  font-size: 20px;
+}
+.entete img {
+  /* margin-left: 250px; */
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.formlang {
+  display: flex;
+  position: relative;
+  background: black;
+  color: white;
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+  margin-bottom: 10px;
+  padding: 0px;
+  text-align: center;
+  height: 450px;
+  width: 200px;
+  top: 50px;
+}
+.formation {
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  font-size: 14px;
+}
+.langue {
+  position: absolute;
+  z-index: 1;
+  top: 250px;
+  left: 50px;
+}
+.contact {
+  margin-left: 30px;
+}
+
+@media screen and (max-widht: 1500px) {
+}
+.conteneur {
+  width: 90%;
+}
