@@ -59,6 +59,9 @@
   left: 5px;
   font-size: 14px;
 }
+.formation h2 {
+  text-align: center;
+}
 .langue {
   position: absolute;
   z-index: 1;
@@ -66,7 +69,10 @@
   left: 35px;
 }
 .contact {
-  margin-left: 30px;
+  align-content: center;
+}
+.contact h2 {
+  text-align: center;
 }
 
 @media screen and (max-widht: 1500px) {
@@ -74,4 +80,3 @@
 .conteneur {
   width: 90%;
 }
-
