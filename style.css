@@ -1,5 +1,7 @@
 .conteneur {
   display: flex;
+  border: 1px solid black;
+  margin-top: auto;
 }
 
 .partie1 {
@@ -12,11 +14,11 @@
   background-color: rgb(251, 252, 251);
   width: 600px;
   margin-left: 100px;
+  size: 300px;
 }
-
 .entete {
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   background: black;
   border-bottom-left-radius: 180px;
   border-bottom-right-radius: 180px;
@@ -36,8 +38,8 @@
   /* margin-left: 250px; */
   border: 1px solid white;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 .formlang {
   display: flex;
