@@ -5,7 +5,7 @@
   --taille-police-secondaire: 16px;
 }
 body {
-  background-color: var(--cooleur-red);
+  background-color: var(--couleur-principale);
 }
 .conteneur {
   display: flex;
