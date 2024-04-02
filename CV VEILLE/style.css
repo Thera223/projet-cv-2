@@ -1,5 +1,8 @@
 :root {
-  --cooleur-principale: #ffffff;
+  --couleur-principale: #ffffff;
+  --couleur-text-principale: #0a0a0a;
+  --taille-police-principale: 20px;
+  --taille-police-secondaire: 16px;
 }
 body {
   background-color: var(--cooleur-red);
